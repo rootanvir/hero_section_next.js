@@ -3,9 +3,9 @@ import React from 'react';
 const RootLayer = ({children}) => {
   return (
     <html lang='en'>
-      <body>
+      <body className='bg-white'>
         <div> 
-          RootLayer
+          
         </div>
         {children}
       </body>
