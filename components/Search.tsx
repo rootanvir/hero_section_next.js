@@ -1,6 +1,6 @@
-import React from 'react';
+import React ,{FC, InputHTMLAttributes } from 'react';
 
-const Search = () => {
+const Search : FC= () => {
   return (
     <input
       type="text"

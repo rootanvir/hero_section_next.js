@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React,{FC} from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import '../styles/globals.css';
@@ -8,7 +8,7 @@ import Btn from './Button';
 import Search from './Search';
 
 
-const Nav = () => {
+const Nav:FC = () => {
   return (
     <nav className="flex justify-between items-center h-20 px-12 shadow-md bg-white">
       <Link href="#" className="flex items-center gap-2">
@@ -24,7 +24,7 @@ const Nav = () => {
       <div className="flex items-center gap-4">
         <Btn text="Home" />
         <Btn text="Courses" />
-        <Btn text="Live Batches" />
+        <Btn text="Live Batches"/>
         <Btn text="Teachers" />
         <Btn text="About" />
         <Btn text="Contact" />
